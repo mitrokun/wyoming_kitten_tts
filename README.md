@@ -1,4 +1,4 @@
-# Wyoming Kitten TTS
+# Wyoming [Kitten TTS](https://github.com/KittenML/KittenTTS)
 
 ## Installation (venv)
 
