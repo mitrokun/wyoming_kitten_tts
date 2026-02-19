@@ -31,6 +31,6 @@ pip install wyoming sentence-stream numpy
 ### 4. Run the Server
 
 ```bash
-# Use Nano model for near-zero latency; port 20211 is in use.
+# Start with the nano model; port 20211 is used by default
 python3 -m kitten_tts --model "KittenML/kitten-tts-nano-0.8"
 ```
