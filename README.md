@@ -1,5 +1,7 @@
 # Wyoming [Kitten TTS](https://github.com/KittenML/KittenTTS)
 
+We're waiting for the developers to sort out their library's dependencies (remove spacy). For now, we're using this approach.
+
 ## Installation (venv)
 
 ### 1. Clone the repository
