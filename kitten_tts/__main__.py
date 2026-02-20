@@ -12,7 +12,7 @@ from .kitten_engine import KittenEngine
 from .handler import KittenEventHandler
 
 _LOGGER = logging.getLogger(__name__)
-__version__ = "1.0.0"
+__version__ = "0.8.0"
 
 def main() -> None:
     parser = argparse.ArgumentParser()
@@ -38,7 +38,7 @@ def main() -> None:
         wyoming_voices.append(
             TtsVoice(
                 name=voice_id,
-                description=f"{voice_id} (KittenTTS)",
+                description=f"{voice_id}",
                 attribution=Attribution(name="KittenML", url="https://github.com/KittenML/KittenTTS"),
                 installed=True,
                 version=__version__,
@@ -86,4 +86,5 @@ def run():
     main()
 
 if __name__ == "__main__":
+
     run()
